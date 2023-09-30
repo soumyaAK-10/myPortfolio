@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Info</title>
+    <style>
+        section{
+            
+           margin-left: 10px;
+           margin-top: 18px;
+        }
+
+        aside{
+            margin-left: 700px;
+            margin-top: -55px;
+        }
+
+        img:hover{
+            filter: scale(1);
+            transform: scale(1.2);
+        }
+
+        #contact{
+            font-size: 20px;
+            color: black;
+        }
+
+        #contact:hover{
+            color: red;
+            font-size: 20.5px;
+            transition: 400ms;
+        }
+
+        #id{
+            border: 2px;
+            border-radius: 15px;
+            font-size: 20px;
+            background-color: rgb(44, 220, 211);
+        }
+
+        #id:hover{
+            background-color: chocolate;
+            font-size: 21px;
+        }
+
+        fieldset{
+            margin-top: 150px;
+            height: 280px;
+        }
+        header{
+            height: 65px;
+            
+        }
+        a{
+            text-decoration: none;
+        }
+        
+    </style>
+
+    
+</head>
+<body background="sahana.jpg">
+    <header>
+        <section>&nbsp;&nbsp;<a href="https://thetapacademy.com/"><img src="image1.jpeg" alt=""></a></section>
+
+    <aside>
+        <h3>    
+            <font face="constantia" size="3px">
+                <a id="contact" href="index.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="contact" href="About me.html">ABOUT ME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="contact" href="Education.html">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="contact" href="projects.html">PROJECTS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="contact" href="Certificatess.html">CERTIFICATES</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="contact" href="contact-me.html">CONTACT ME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            </font>
+        </h3>
+    </aside>
+    </header>
+    <center>
+        <form action="">
+            <fieldset style="width: 30%;border: 3px solid black; border-radius: 10px;">
+                <legend style="font-size: 22px; color: brown;"><b>Contact Me</b></legend>
+                <br>
+                
+                <label for="uname"><b>Name:</b></label>&nbsp;&nbsp;&nbsp;
+                <input type="text" required id="uname" pattern="[a-zA-Z]{3,8}">
+                <br>
+                <br>
+                <label for="pno"><b>Email:</b></label>&nbsp;&nbsp;&nbsp;
+                <input type="email" required id="pno">
+                <br>
+                <br>
+                <label for="pno"><b>Ph no:</b></label>&nbsp;&nbsp;
+                <input type="tel" required id="pno" pattern="[6-9]{1}[0-9]{9}">
+                <br>
+                <br>
+                <br>
+                <a href="" onclick="alert('Thank you...!')"><input id="id" type="submit"></a>
+                <br>
+                <br>
+                <br>
+                
+               
+            </fieldset>
+            
+        </form>
+    
+    </center>
+    
+   
+        
+</footer>
+    
+</body>
+</html>
